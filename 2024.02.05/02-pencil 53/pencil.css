@@ -1,0 +1,30 @@
+#tartalom {
+    
+        color: white;
+        text-align: center;}
+
+#idezet {
+        padding-top: 20px;
+        } 
+
+
+#kepatmenet {width: 1200px;
+
+}
+
+p {text-align: justify;}
+#hasabok {color: black;}
+.hasablogo {width: 200px;}
+.hasabkep {width: 350px;}
+
+.hasablogo:hover { transform:rotate(20deg);
+                    transition-duration: 0.2s;}
+
+
+#lablec {
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 1200px;
+        background-color:rgb(47, 47, 45);}

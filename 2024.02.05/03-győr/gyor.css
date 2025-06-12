@@ -1,0 +1,53 @@
+body{background: #1D597B url(varoshaza.jpg) top center no-repeat fixed;}
+
+h1{text-align: center;}
+
+hr {width: 80%;}
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align:center;
+}
+
+li {display:inline;}
+
+ li a {display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20pt;
+    display:inline-block;}
+
+
+li a:hover {background-color: #1D597B;}
+
+.cikk { width: 1000px;
+        float: left;}
+
+
+.bal {margin-left: 20px;
+    margin-top: 20px;
+    width:450px;}
+
+.jobb{  margin-right: 20px;
+        margin-top: 20px;
+        width:450px;
+        }
+
+#lablec {
+        background-color: #333;
+        width: 1000px;
+        text-align: center;
+        margin:auto;}
+
+#lablec a {text-align: center;
+        font-size: 16pt;}
+
+
+
+
+
