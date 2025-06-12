@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona - Mezrendelés</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="kepek/cimer.png" alt="Címer" class="cimer">
+    <img src="kepek/cimer.png" alt="Címer" class="cimer2">
+    <div class="topnav1">
+        <div class="topnav">
+            <a href="index.html">Kezdőlap</a>
+            <a href="siker.html">A klub sikerei</a>
+            <a href="játékosok.html">Játékosok</a>
+            <a class="active" href="mez.html">Mezrendelés</a>
+          </div>
+    </div>
+    <div>
+      <div class="form">
+        <div class="formkozep">Adja meg adatait és töltse ki az űrlapot!</div>
+          <form class="forma">
+              <label class="formszoveg" for="keresztnev">Keresztnév:</label>
+              <input type="text" id="keresztnev" name="keresztnev" class="adatok"><br><br>
+              <label class="formszoveg">Vezetéknév:</label>
+              <input type="text" id="vezetek" name="vezetek" class="adatok"><br><br>
+              <label class="formszoveg" for="email">E-mail cím:</label>
+              <input type="text" id="email" name="email" class="adatok"><br><br>
+          </form>
+          <form class="formszoveg, forma">
+              <input type="checkbox" id="robot" name="robot" value="robot"> Nem vagyok robot.
+          </form>
+      </div>
+      <div class="formkozep">Választható mezek</div>
+      <div class="meztext">Hazai szurkolói mez <br>
+           27999 Ft</div>
+        <a href="kepek/homekit2.jpg"><img src="kepek/homekit2.jpg" alt="Hazai mez" title="Hazai mez" class="formkep"></a>
+      <div class="meztext">Vendég szurkolói mez <br>
+                            27999 Ft</div>
+        <a href="kepek/awaykit.jpg"><img src="kepek/awaykit.jpg" alt="Vendég mez" title="Vendég mez" class="formkep"></a>
+      <div class="formkozep">Válasszon méretet!</div>
+        <form class="forma2">
+          <input type="radio" id="m" name="meretek" value="M">
+          <label for="m">M</label><br>
+          <input type="radio" id="l" name="meretek" value="L">
+          <label for="l">L</label><br>
+          <input type="radio" id="xl" name="meretek" value="XL">
+          <label for="xl">XL</label>
+        </form>
+        <div class="formkozep">Írjon megjegyzést!</div>
+        <textarea id="text" name="meretek" rows="10" cols="70"></textarea>
+        <form class="forma3">
+          <input type="submit" id="submit" name="submit" value="Küldés">
+          <input type="reset" name="reset" value="Törlés">
+        </form>
+    </div>
+</body>
+</html>

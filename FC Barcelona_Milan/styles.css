@@ -1,0 +1,354 @@
+body {
+    background-image: url("kepek/háttér12.pn");
+    background-color: #000000;
+    color: white;
+}
+a{
+  text-decoration: underline;
+}
+a :hover{
+    color: black;
+}
+a :active{
+  color: #ac8703;
+}
+a :visited{
+  background-color: #000000;
+}
+
+                                      /*SCROLLBAR*/
+::-webkit-scrollbar{
+  max-width: 1.1em;
+}
+::-webkit-scrollbar-track{
+  background-color: #051571;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #EDBB00;
+  border-radius: 120px;
+  border: 0.2em solid rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #ac8703;
+}
+                                  /* NAVIGATION BAR*/
+.topnav {
+    background-color: #051571;
+    overflow: hidden;
+    margin-left: 320px;  
+  }
+
+  .topnav1{
+    background-color: #051571;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: #EDBB00;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #EDBB00;
+    color: rgb(0, 0, 0);
+  }
+                                        /*CÍMER IKON*/
+.cimer{
+    height: 60px;
+    width: 60px;
+    float: left;
+}
+.cimer2{
+    height: 60px;
+    width: 60px;
+    float: right;
+}
+                                          /*KÉPEK*/
+.petikep{
+  margin-top: 20px;
+  height: 171px;
+  width: 340px;
+  float: right;
+}
+
+.barcakep{
+  height: 367px;
+  width: auto;
+  float: left;
+  margin-top: 25px;
+}
+.barcakep2{
+  height: 324px;
+  width: auto;
+  float: right;
+  margin-top: 25px;
+}
+.barcakep3{
+  height: 246px;
+  width: auto;
+  float: left;
+  margin-top: 25px;
+}
+.xavi{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 50%;
+}
+                                    /*SZÖVEG ELRENDEZÉSEK*/
+.kozep{
+  padding: 10px;
+  background-color: #EDBB00;
+  color: #051571;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  letter-spacing: 3px;
+}
+.jobb{
+  float: right;
+  background-color: #EDBB00;
+  padding: 7px;
+  color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 0px;
+  width: 78%;
+  font-size: 22px;
+  margin-top: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+
+.bal{
+  float: left;
+  background-color: #EDBB00;
+  padding: 7px;
+  color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 20px;
+  margin-left: 0;
+  width: 70%; 
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+
+h1{
+  padding: 10px;
+  background-color: #051571;
+  color: #EDBB00;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  letter-spacing: 3px;
+}
+                                          /*BAJNOKOK LIGÁJA*/
+.blh1{
+  float: right;
+  background-color: #051571;
+  padding: 10px;
+  color: #EDBB00;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  margin-right: 0px;
+  width: 69%;
+  font-size: 22px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-align: center;
+}
+.bljobb{
+  float: right;
+  background-color: #EDBB00;
+  padding: 10px;
+  color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  margin-right: 0px;
+  width: 69%;
+  font-size: 22px;
+  margin-top: 23px;
+}
+                                          /*SPANYOL BAJNOKSÁG*/
+.ligabal{
+  float: left;
+  background-color: #EDBB00;
+  padding: 10px;
+  color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  margin-top: 23px;
+  margin-left: 0;
+  width: 72%;
+  font-size: 22px;
+}
+.ligah1{
+  float: left;
+  background-color: #051571;
+  padding: 10px;
+  color: #EDBB00;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  margin-right: 0px;
+  width: 72%;
+  font-size: 22px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-align: center;
+}
+                                            /*SPANYOL KUPA*/
+.kupah1{
+  float: right;
+  background-color: #051571;
+  padding: 10px;
+  color: #EDBB00;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  margin-right: 0px;
+  width: 69%;
+  font-size: 22px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-align: center;
+}
+                                            /*SZÖVEG DESIGN*/
+
+                                              /*TÁBLÁZAT*/
+table, th, td {
+  border: 1px solid #EDBB00;
+  color: white;
+  font-size: 35px;
+  margin: auto;
+  margin-top: 30px;
+}
+details{
+  text-align: center;
+  margin-top: 10px;
+}
+summary{
+  font-style: italic;
+  font-size: 18px;
+}
+caption{
+  padding: 10px;
+  background-color: #EDBB00;
+  color: #051571;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  letter-spacing: 3px;
+}
+figcaption{
+  padding: 10px;
+  background-color: #EDBB00;
+  color: #051571;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 313px;
+  margin-right: 313px;
+  letter-spacing: 3px;
+}
+                                                /*FORM*/
+form{
+  margin-left: 400px ;
+  margin-top: 25px;
+}
+.formszoveg{
+  color: #EDBB00;
+}
+.formkozep{
+  padding: 10px;
+  background-color: #EDBB00;
+  color: #051571;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  letter-spacing: 3px;
+}
+.adatok{
+    margin-left: 30px;
+}
+.formkep{
+  margin-top: 25px;
+  margin-left: 500px;
+  margin-right: 500px;
+  height: 400px;
+  width: auto;
+}
+
+.figbal{
+  margin-left: 300px;
+  font-size: 22px;
+  color: #EDBB00;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+.meztext{
+  margin-top: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 5px;
+  background-color: #051571;
+  text-align: center;
+  color: #EDBB00;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+.forma{
+  margin-left: 520px;
+  color: #EDBB00;
+}
+.forma2{
+  margin-left: 630px;
+  color: #EDBB00;
+}
+.forma3{
+  margin-left: 600px;
+  color: #EDBB00;
+}
+textarea{
+    margin-left: 400px;
+    margin-top: 20px;
+    max-width: 700px;
+    max-height: 200px
+};
+
+
+/*<form>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br><br>
+          </form>
+          <form>
+            <input type="checkbox" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" name="vehicle3" value="Boat" checked>
+            <label for="vehicle3"> I have a boat</label><br><br>
+            <input type="submit" value="Submit">
+          </form>*/
