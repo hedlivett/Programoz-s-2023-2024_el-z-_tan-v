@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vásárolj nálunk</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    
+</head>
+<body>
+    <div id="fejlec"> 
+    <a  href="index.html" class="atmenet">Főoldal</a>
+    <a  href="autoink.html" class="atmenet">Autóink</a>
+    <a  href="kieg.html" class="atmenet">Kiegészítőink</a>
+    <a href="vasarlas.html" class="atmenet" id="aktiv">Vásárlás</a>
+    </div>
+
+    
+    <div class="ajanlat">
+        <form>
+            <fieldset>
+                <legend>Időpont kérése</legend>
+                <div class="balt">
+                    <p>Név:<br>
+                        <input type="text" name="nev" value="">
+                    </p>
+                    <p>Email cím:<br>
+                        <input type="text" name="email" value="">
+                    </p>
+                    <p>Telefonszám:<br>
+                        <input type="text" name="telefonszam" value="" >
+                    </p>
+                    <p>Vásárlás :<br>
+                        <input type="radio" name="vasarlas" value="autovasarlas" id="autovasarlas"><label
+                            for="autovasarlas">Autó vásárlás</label><br>
+                        <input type="radio" name="vasarlas" value="kiegeszitovasarlas" id="kiegeszitovasarlas"><label
+                            for="kiegeszitovasarlas">Kiegészítő vásarlás</label><br>
+                        <input type="radio" name="vasarlas" value="autoeskiegeszitovasarlas" id="autoeskiegeszitovasarlas"><label
+                            for="autoeskiegeszitovasarlas">Autó és Kiegészítő vásárlás</label><br>
+                    
+                    <p>Egyéb megjegyzés:<br>
+                        <textarea name="megjegyzes" rows="5" cols="40">Egyéb megjegyzését ide írja...</textarea>
+                    </p>
+                    <p><input type="submit" name="ok" value="Időpont Kérése"></p>
+                    <p><input type="reset" name="torles" value="Mégse"></p>
+                </div>
+                <div class="jobbt">
+                    <table> <caption >Tesland Árai</caption>
+                    
+                        <tr>
+                            <th>Tesla Model X</th>
+                            <td>52.200.000 Forinttól</td>
+                        </tr>
+                        <tr>
+                            <th>Tesla Model Y</th>
+                            <td>22.900.000 Forinttól</td>
+                        </tr>
+                        <tr>
+                            <th>Tesla Model S</th>
+                            <td>48.360.000 Forinttól</td>
+                        </tr>
+                        <tr>
+                            <th>Tesla Model 3</th>
+                            <td>18.999.900 Forinttól</td>
+                        </tr>
+                        <tr>
+                            <th>Szélvédő takaró</th>
+                            <td> 14.000 Forint</td>
+                        </tr>
+                        <tr>
+                            <th>Airpods tartó</th>
+                            <td>5.900 Forint</td>
+                        </tr>
+                        <tr>
+                            <th>Szőnyeg szett</th>
+                            <td>73.500 Forint</td>
+                        </tr>
+                        <tr>
+                            <th>Üléshuzat (1db)</th>
+                            <td>44.000 Forint</td>
+                        </tr>
+                        <tr>
+                            <th>Kábeltálca</th>
+                            <td>21.000 Forint</td>
+                        </tr>
+                        <tr>
+                            <th>Fekete Tesla emblékák (3db)</th>
+                            <td>9.000 Forint</td>
+                        </tr>
+                        <tr>
+                            <th>Árakink</th>
+                            <td><details><summary>Minden jogot fentartunk</summary>
+                            <ul>
+                            <li>Áraink Forintban értendők!</li>
+                            <li>Áraink az áfát tartalmazzák!</li>
+                            <li>A termékekhez tartozó kép csak illusztráció!</li></ul></details></td>
+                        </tr>
+                        
+
+                    </table>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

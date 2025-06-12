@@ -1,0 +1,200 @@
+body
+ {font-family: Arial, Helvetica, sans-serif;
+    background-color: #1d2026;
+    color: white;
+        }
+
+#fejlec{
+    background-color: rgba(71, 87, 141, 0.7);
+    margin: 0 auto;
+  
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+#aktiv{
+    color: black;
+}
+
+#fodiv{
+    background-image: url(képek/background.jpg);
+    height: 1300px;
+    width: 1400px;
+        padding-top: 30px;
+        padding-left: 50px;
+        margin: auto;
+}
+
+#csik{
+    background-color: rgba(32, 32, 32, 0.7);
+    height: 100px;
+    width: 1300px;
+        padding-top: 30px;
+        padding-left: 50px;
+        margin: auto;
+       
+}
+
+.atmenet{
+    color: cornflowerblue;
+    font-family: fantasy;
+    font-size: 50px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+#kepdiv{
+    height: 280px;
+    width: 470px;
+    background-color: rgba(32, 32, 32, 0.7);
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 20px;
+}
+    
+
+#logok{
+    width: 450px;
+    margin-top: 20px; 
+}
+
+#inf{
+    height: 680px;
+    width: 470px;
+    background: rgba(32, 32, 32, 0.7);
+    margin-left: 25px;
+    margin-top: 100px;
+   padding: 20px;
+}
+
+.infc{
+    clear: both;
+    color: cornflowerblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font: 35px;
+}
+
+h2{
+font-size: 50px;
+
+}
+#ol{
+clear: both;
+}
+
+h3{
+    font-size: 35px;
+}
+.auto{
+    width: 1300px;
+    background-image: url(képek/3.jpeg );
+    font-family: fantasy;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.eladod{
+  height: 300px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.ada{
+  color: rgb(198, 224, 236);
+  margin-right: 40px;
+  font-size: 45px;
+}
+.kep{
+    width: 500px;
+    height: auto;
+    margin-right: 50px;
+    
+}
+.kepki{
+    width: 500px;
+    height: 350px;
+    margin-top: 30px;
+    
+}
+.tovabbi{
+    height: 800px;
+}
+.bal{
+    float: left;
+   
+}
+.jobb{
+    float: right;
+    
+    
+}
+.jobbk{
+    float: right;
+    margin-right: 100px;
+   
+}
+.balk{
+    float: left;
+    margin-left: 60px;
+}
+.sum{
+    font-size: 40px;
+    margin-left: 25px;
+}
+.mod{
+    margin-left: 25px;
+}
+.alm{
+    background-color: rgb(198, 224, 236);
+}
+.margin{
+    background-color: rgb(198, 224, 236);
+}
+.nem{
+    float: left;
+    margin-left: 40px;
+    background-color:  rgb(198, 224, 236);
+    width: 320px;
+    height: 500px;
+    margin-top: 40px;
+}
+.jobbg{
+    float: right;
+    margin-right: 40px;
+    background-color:  rgb(198, 224, 236);
+    margin-right: 70px;
+    width: 320px;
+    height: 500px;
+    margin-top: 40px;
+}
+.kikep{
+    height: 170px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cim{
+    text-align: center;
+}
+.cim3{
+    font-size: 35px;
+}
+.ajanlat{
+    margin-top: 40px;
+}
+table, th, td, tr 
+   {
+        border: 5px solid whitesmoke;
+        border-collapse: collapse;
+   }
+tr:hover{
+    background-color: bisque;
+    color: rgba(218, 37, 37, 0.452);
+}
+.jobbt{
+float: right;
+}
+.balt{
+    float: left;
+}
