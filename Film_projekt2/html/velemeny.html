@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vélemény</title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="menu1">
+        <div class="fejlec">
+            <h1 class="cim">Filmek</h1>
+            <div class="menu2">
+
+                <div>
+                    <a href="index.html" class="atmenet">Főoldal</a>
+                    <a href="kategoriak.html" class="atmenet">Kategóriák</a>
+                    <a href="kedvencek.html" class="atmenet">Kedvencek</a>
+                    <a href="nepszeru.html" class="atmenet">Népszerű</a>
+                    <a href="velemeny.html" class="atmenet" id="aktiv">Vélemény</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="egesz"> 
+        <div class="velemenybal">
+            <br>
+            <div>
+                <form>
+                    <fieldset>
+                        <legend>Vélemény</legend>
+
+                        <div>
+                            <video autoplay loop controls class="jobboldal">
+                                <source src="video/rövidfilm.mp4">
+                            </video>
+
+                        </div>
+
+                        <h2 class="alahuz">Név:</h2>
+
+                        <input type="text" name="nev" value="Ide írjon!" maxlength="20">
+                        <h2 class="alahuz">Elérhetőségek:</h2>
+                        <select name="hivoszam" id="hivoszam">
+                            <option value="Magyarország">+36</option>
+                            <option value="Németország">+49</option>
+                            <option value="Románia">+40</option>
+                            <option value="Ukrajna">+380</option>
+                            <option value="Olaszország">+39</option>
+                            <option value="EgyesültKirályság">+44</option>
+                            <option value="Franciaország">+33</option>
+                            <option value="Lengyelország">+48</option>
+                            <option value="Luxemburg">+352</option>
+                            <option value="Svájc">+41</option>
+                            <option value="Szerbia">+381</option>
+                        </select>
+                        <input type="text" name="telefon" id="telefonszam" maxlength="20">
+                        <br>
+                        <input type="email" id="email" maxlength="50">
+                        <select name="gmail" id="gmail">
+                            <option value="">@gmail.com</option>
+                            <option value="">@gmail.com</option>
+                            <option value="">@hotmail.com</option>
+                            <option value="">@hotmail.hu</option>
+                            <option value="" selected>@students.jedlik.eu</option>
+                        </select>
+                        <details>
+                            <summary>Segítség</summary>
+                            <h3>Ha az adatai nem egyeznek a legördülő listán található példákkal, akkor kérem írja
+                                be elé
+                                vagy mellé a megfelelő információkat.</h3>
+                        </details>
+                        <h2 class="alahuz">Melyikek a kedvenc film kategóriád?</h2>
+                        <input type="checkbox" name="akciof"> <label >Akciófilmek</label>
+                        <input type="checkbox" name="animaciosf"> <label >Animációs filmek</label>
+                        <input type="checkbox" name="autoversenyf"> <label >Autóversenyzős
+                            filmek</label>
+                        <input type="checkbox" name="bortonf"> <label >Börtönfilmek</label>
+                        <input type="checkbox" name="bunfilm"> <label >Bűnügyi filmek</label>
+                        <input type="checkbox" name="csaladifilmek"> <label>Családi filmek</label>
+                        <input type="checkbox" name="dokumentumf"> <label>Dokumentumfilmek</label>
+                        <input type="checkbox" name="eletrajzifilmek"> <label></label>
+                        <input type="checkbox" name="fantasyf"> <label>Fantasyfilmek</label>
+                        <input type="checkbox" name="dramaf"> <label>Dráma</label>
+                        <input type="checkbox" name="vigjatekokf"> <label >Vígjátékok</label>
+                        <input type="checkbox" name="haborusf"> <label >Háborús filmek</label>
+                        <input type="checkbox" name="harcmuveszetif"> <label >Harcművészeti filmek</label>
+                        <input type="checkbox" name="horrorf"> <label ></label>
+                        <input type="checkbox" name="kalandfilmek"> <label>Kalandfilmek</label>
+                        <input type="checkbox" name="kalozosf"> <label >Kalózos filmek</label>
+                        <input type="checkbox" name="katasztrofa"> <label>Katasztrófafilmek</label>
+                        <input type="checkbox" name="kemfilmek"> <label >Kémfilmek</label>
+                        <input type="checkbox" name="magyarf"> <label >Magyar filmek</label>
+                        <input type="checkbox" name="misztikus"> <label >Misztikus filmek</label>
+                        <input type="checkbox" name="politikaif"> <label >Politikai filmek</label>
+                        <input type="checkbox" name="romantikusf"> <label >Romantikus filmek</label>
+                        <input type="checkbox" name="sci-fif"> <label >Sci-fi filmek</label>
+                        <input type="checkbox" name="thrillerf"> <label >Thrillerfilmek</label>
+                        <input type="checkbox" name="történelmifilmek"> <label >Történelmi filmek</label>
+                        <input type="checkbox" name="westernf"> <label >Westernfilmek</label>
+                        <h2 class="alahuz">Kedvenc filmek?</h2>
+                        <textarea name="kedvencf" id="kedvenf" cols="40" rows="7"
+                            maxlength="100">pl: Éjszakai merülés</textarea>
+                        <h3 class="alahuz">Hány csillagra értékelnéd az oldalt?</h3>
+                        <label  class="radiofo">
+                            <input type="radio" name="opcio">
+                            <span class="radiomasik">&#9733;</span>
+                        </label>
+                        <label  class="radiofo">
+                            <input type="radio" name="opcio">
+                            <span class="radiomasik">&#9733;&#9733;</span>
+                        </label>
+                        <label  class="radiofo">
+                            <input type="radio" name="opcio">
+                            <span class="radiomasik">&#9733;&#9733;&#9733;</span>
+                        </label>
+                        <label  class="radiofo">
+                            <input type="radio" name="opcio">
+                            <span class="radiomasik">&#9733;&#9733;&#9733;&#9733;</span>
+                        </label>
+                        <label  class="radiofo">
+                            <input type="radio" name="opcio" checked>
+                            <span class="radiomasik">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                        </label>
+
+                        <h2 class="alahuz">Javítási ötlet</h2>
+                        <textarea name="javit" id="javit" cols="40" rows="8" maxlength="100">Ötletek:</textarea>
+                       <br>
+                        <input type="reset" value="Törlés" id="küld">
+                        <input type="submit" value="Küldés" id="töröl">
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

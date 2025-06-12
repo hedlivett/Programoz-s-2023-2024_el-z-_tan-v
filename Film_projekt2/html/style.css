@@ -1,0 +1,481 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 100px;
+
+}
+
+
+
+
+.fent a {
+    overflow: hidden;
+    color: azure;
+    text-decoration: solid;
+
+
+
+}
+
+
+
+.animalt {
+
+    height: 250px;
+    border: dotted;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 250px;
+}
+
+
+
+
+.fejlec {
+    width: 960%;
+    height: 140%;
+    ;
+
+}
+
+.menu1 {
+    background-image: url(kepek/függöny1.jfif);
+    height: 150px;
+    width: auto;
+    color: rgb(255, 93, 43);
+    transition: 0.3s ease;
+}
+
+.atmenet {
+    color: rgb(255, 93, 43);
+    font-size: 2.5em;
+    margin: 10px;
+
+}
+
+
+.menu2 {
+    background-color: rgb(255, 115, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+a:hover {
+    color: rgb(251, 255, 0);
+
+}
+
+a:active {
+    color: yellow;
+}
+
+a:visited {
+    text-decoration: underline;
+
+}
+
+a {
+    color: white;
+}
+
+.aktiv {
+    color: rgb(255, 255, 255);
+
+
+}
+
+.atmenet {
+    color: rgb(236, 237, 238);
+
+    text-decoration: none;
+
+
+}
+
+.sarga {
+    color: rgb(248, 142, 76);
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+
+    margin-top: 45px;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+img {
+    text-align: center;
+}
+
+.fejlec {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+
+}
+
+a :active {
+    color: rgb(227, 227, 227);
+}
+
+a {
+    color: rgb(255, 136, 63);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.cim {
+    font-family: serif;
+    font-size: 4.3em;
+
+}
+
+.kiegeszitok {
+    background-color: black;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 400px;
+    text-align: center;
+    border: dotted blue;
+}
+
+
+
+.streaming {
+    width: auto;
+    height: 180px;
+    margin-top: 25px;
+    text-align: center;
+
+
+}
+
+footer {
+    padding: 30px;
+    background-image: url(kepek/függöny1.jfif);
+    border: double white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+    text-decoration: dotted;
+
+
+}
+
+thead {
+    text-align: center;
+}
+
+ul {
+    color: white;
+}
+
+table {
+    border: solid;
+    text-align: center;
+
+}
+
+tr {
+    text-align: center;
+
+
+}
+
+th {
+    border: solid;
+    font-size: 2.5em;
+    text-align: center;
+    background-color: black;
+
+}
+
+
+.kategoriaki {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 3.5em;
+    text-align: center;
+    background-color: black;
+
+}
+
+.fenti {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    font-size: 2.9em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.táblázat {
+    text-align: center;
+    background-image: url(kepek/kategoriak.jpg);
+}
+
+table {
+    margin: auto;
+}
+
+#aktiv {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+
+input {
+    margin: 5px;
+    color: black;
+    background-color: rgb(250, 173, 105);
+    border: dotted rgb(254, 255, 255);
+    font-family: cursive;
+    text-align: justify;
+}
+
+label {
+    font-family: cursive;
+}
+
+textarea {
+    background-color: rgb(250, 173, 105);
+    border: double rgb(254, 255, 255) 9px;
+    font-family: cursive;
+}
+
+
+
+select {
+    color: black;
+    font-family: cursive;
+    border: solid gray;
+}
+
+#küld {
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(255, 255, 255);
+    margin-top: 25px;
+    font-size: 1.6em;
+}
+
+#töröl {
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: greenyellow;
+    margin-top: 25px;
+    font-size: 1.6em;
+}
+
+.alahuz {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+
+}
+
+legend {
+    font-size: 2.4em;
+    margin-top: 25px;
+}
+
+.egesz {
+    color: rgb(250, 92, 0);
+    flex: 1;
+}
+
+.velemenyjobb {
+    float: right;
+}
+
+.velemenybal {
+    float: left;
+    flex: 1;
+}
+
+.radiofo {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 2em;
+
+}
+
+.radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+
+
+}
+
+.radiomasik {
+
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    /* Méret a csillag ikonhoz */
+    height: 20px;
+    /* Méret a csillag ikonhoz */
+    line-height: 0px;
+    /* Középre igazítás függőlegesen */
+    text-align: center;
+
+
+}
+
+.radiofo input:checked~.radiomasik {
+    color: yellow;
+
+}
+
+
+.orpciok {
+    /*kepek*/
+
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: auto;
+    border: dotted;
+
+
+}
+
+.jobboldal {
+    float: right;
+    flex: 1;
+    height: 300px;
+    width: auto;
+}
+
+.balo {
+    float: left;
+    width: 600px;
+    height: 600px;
+    margin-left: 40px;
+    background-color: black;
+    margin-top: 40px;
+    border: rgb(255, 107, 9) solid;
+    text-align: center;
+}
+
+.jobbo {
+    float: right;
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    margin-right: 40px;
+    margin-top: 40px;
+    border: solid rgb(255, 107, 9);
+    text-align: center;
+}
+
+
+/*népszerű oldal*/
+
+.felirati {
+    text-align: center;
+    width: auto;
+    color: aliceblue;
+    font-size: 3em;
+    font-family: monospace;
+}
+
+/*kedvencek oldal lefele*/
+
+
+.lista {
+    border: rgb(255, 119, 0) solid 15px;
+    padding: 25px;
+    margin: 25px 400px 25px 400px;
+    font-size: 1.4em;
+
+
+
+}
+
+.cimes {
+    text-align: center;
+    font-size: 3em;
+
+}
+
+.kedvencek {
+    text-align: center;
+    height: 500px;
+    width: auto;
+    border: orange double 5px;
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.kozip {
+    text-align: center;
+}
+
+
+
+
+
+
+summary {
+    font-size: 1.7em;
+    margin-top: 0;
+
+}
+
+.korhatar {
+    text-align: center;
+    background-color: orange;
+    color: black;
+    border: solid #000000;
+    margin-top: 25px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#feketés {
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: solid black;
+}
