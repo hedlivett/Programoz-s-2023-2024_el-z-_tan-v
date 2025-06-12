@@ -1,0 +1,147 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 150px;
+
+
+}
+
+table {
+    border-style: double;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    text-align: center
+}
+
+#fejlec>div {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#fejlec {
+    width: 100%;
+    height: 140px;
+    background: #cfeefe url('Kép17.png') no-repeat;
+    background-size: cover;
+    border-top: 2px solid #a9d2e7;
+    border-bottom: 2px solid #a9d2e7;
+}
+
+#fejlec h1 {
+    font-family: 'Sarina', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 0;
+}
+
+#fejlec p {
+    font-size: 16px;
+    margin: 8px;
+    padding: 0;
+
+}
+
+#menu {
+    background-color: #f8fffa;
+    height: 30px;
+}
+
+#menu ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+#menu ul li {
+    display: inline;
+    padding: 0 30px;
+    margin: 0;
+    line-height: 30px;
+}
+
+#menu ul li a,
+#menu ul li a:link,
+#menu ul li a:visited {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#menu ul li a span {
+    background-color: white;
+    color: black;
+}
+
+#fejlec>div {
+    width: 960px;
+    margin: 0 auto;
+}
+
+li {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    color: #a9d2e7;
+
+}
+
+.kep_alairva {
+
+    font-size: 11px;
+    text-align: center;
+}
+
+#macska {
+    float: right;
+}
+
+#macska2 {
+    float: left;
+}
+
+#macska3 {
+    float: right;
+
+}
+
+.input#zene {
+    margin: auto;
+    display: block;
+}
+
+.kepek {
+    margin-right: center;
+    margin-left: center;
+    text-align: center;
+}
+.helyek{
+    text-align: center;
+}
+fieldset{
+    background-color: lightyellow;
+   height: 340px;
+   width: 700px;
+   
+}
